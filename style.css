@@ -2,18 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    background-color: #FFFFFF;
-    font-family: sans-serif;
-    font-size: medium;
-
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     width: 100vw;
     height: 100vh;
-    padding: 2%;
 }
-
 
 header {
     height: 25%;
@@ -24,22 +20,19 @@ header {
     justify-content: end;
     align-items:start;
     text-align: center;
-    
-    }
+}
 
         .content-header img {
             width: 35px;
             height: 30px;
-            border-radius: 50%;
-        }
-        .content-header button {
-            border: none;
             padding: 10px 10px;
-            text-align: center;
-            
+            border-radius: 50%;
         }
 
         .content-header a{
+            padding: 10px 10px;
+            text-align: center;
+            justify-content: center;
             text-decoration: none;
             color: black;
         }
@@ -52,8 +45,7 @@ main{
     flex-direction: column;
     justify-content: start;
     align-items:center;
-    text-align: center;
-    
+    text-align: center;  
     }
 
     .logo img {
@@ -66,10 +58,11 @@ main{
     .logo button {
         border-radius: 25%;
         margin-top: 10px;
-        border: #d6d6e5b2  solid 8px;
+        border: #d6d6e5b2  solid 4px;
+        background-color: white;
         padding: 10px 60px;
         display: flex;
-        text-align: lefts;
+        text-align: left;
     }
 
 
@@ -88,8 +81,6 @@ main{
             border: none;
             margin: 10px 15px;
             padding: 10px 15px;
-
-
         }
 
 footer {
@@ -100,23 +91,19 @@ footer {
     justify-content: start;
     align-items:start;
     text-align: center;
-    padding: 60px 10px;
+    padding: 40px 20px;
 }
 
     footer button {
-        font-size: 30px;
+        font-size: 30px;   
     }
 
+    @media screen 
+  and (min-device-width: 1000px) 
+  and (max-device-width: 2281px) {
 
-@media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 378px){
-  
-  .options{
-    display: flex;
-      flex-direction: column;
-      
+    .footer {
+        margin-bottom: 100px;
+    }
   }
-}
 
-          
